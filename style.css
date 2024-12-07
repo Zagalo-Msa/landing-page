@@ -5,7 +5,7 @@
     justify-content: center;
  }
 
- .body {
+.body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -15,7 +15,7 @@
     background-color: white;
  }
 
- .container {
+.container {
     display: flex;
     color: white;
     background-color: #1f2937;
@@ -26,14 +26,53 @@
     height: 230px;
  }
 
- .header {
+.header {
     display: flex;
     justify-content: space-between;
     width: 630px;
-    padding-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    align-items: end;
 
  }
+
+.logo {
+    display: flex;
+    width: 90px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zg {
+    color: blanchedalmond;
+    font-family: serif;
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.5s;
+
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 
+    0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 #ccc,
+    0 7px 0 #ccc, 0 8px 0 #ccc,
+    0 9px 0 #ccc, 0 10px 0 #ccc,
+    0 11px 0 #ccc, 0 12px 0 #ccc,
+    0 20px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+.travel-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    font-family: Verdana;
+    color: burlywood;
+}
 
 a {
     display: flex;
@@ -76,6 +115,7 @@ button {
 img {
     width: 280px;
     height: 150px;
+    padding-top: 10px;
 }
 
 .information {
