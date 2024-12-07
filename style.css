@@ -10,7 +10,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 715px;
-    min-height: 900px;
+    min-height: 920px;
     flex-direction: column;
     background-color: white;
  }
@@ -23,7 +23,7 @@
     flex-direction: column;
     padding: 8px;
     width: 700px;
-    height: 230px;
+    height: 250px;
  }
 
 .header {
@@ -89,6 +89,7 @@ a {
     display: flex;
     width: 630px;
     height: 180px;
+    padding-top: 10px;
 }
 
 .title {
@@ -115,7 +116,6 @@ button {
 img {
     width: 280px;
     height: 150px;
-    padding-top: 10px;
 }
 
 .information {
